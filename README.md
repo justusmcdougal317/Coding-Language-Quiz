@@ -8,3 +8,4 @@ I used functions to make calls to the api for the quiz questions and answers upo
 I used countdown functions to start a timer counting down upon starting the quiz. More event listeres where added to start the quiz before the information was fetched.
 Style css was used to dictate background color , font size, also position of the text was centered using text alighn center command.
 Biggest problem encountered is the api used doesnt transmit answer options on its free api, it sends random generated coding questions but not the multiple choice answer options .For future development I need to link more efficent API to resolve this issue.
+Deployable link: http://127.0.0.1:5501/index.html
