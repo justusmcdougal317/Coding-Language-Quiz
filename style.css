@@ -1,11 +1,17 @@
-body {
+
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
   }
   
-  /* Center the container on the page */
+
+  body {
+    background-color: #00FF00;
+    font-family: Arial, sans-serif;
+  }
+  
+  
   .container {
     display: flex;
     flex-direction: column;
@@ -14,13 +20,13 @@ body {
     height: 100vh;
   }
   
-  /* Style the header */
+  
   h1 {
     font-size: 36px;
     margin-bottom: 20px;
   }
   
-  /* Style the quiz container */
+  
   #quiz-container {
     text-align: left;
     background-color: #fff;
@@ -30,8 +36,8 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
   
-  /* Style the quiz button */
-  #load-quiz, #submit-results {
+  #load-quiz,
+  #submit-results {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -41,35 +47,36 @@ body {
     cursor: pointer;
   }
   
-  #load-quiz:hover, #submit-results:hover {
+  #load-quiz:hover,
+  #submit-results:hover {
     background-color: #0056b3;
   }
   
-  /* Style the quiz results container */
+  
   #quiz-results {
     display: none;
     margin-top: 20px;
   }
   
-  /* Style the total score display */
+ 
   #total-score {
     font-weight: bold;
     font-size: 20px;
   }
   
-  /* Style the initials input field */
+  
   #initials {
     width: 100%;
     margin: 10px 0;
     padding: 5px;
   }
   
-  /* Style the quiz questions and options */
+  
   .question {
     margin-top: 20px;
   }
   
-  /* Style the navigation buttons */
+ 
   button {
     background-color: #007bff;
     color: #fff;
@@ -83,3 +90,4 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+  
